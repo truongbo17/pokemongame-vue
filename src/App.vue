@@ -11,7 +11,7 @@
   <result-screen
     v-if="statusMatch == 'result'"
     :timer="timer"
-    @onStartAgain="statusMatch == 'default'"
+    @onStartAgain="statusMatch = 'default'"
   />
   <copyright-screen />
 </template>
